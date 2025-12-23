@@ -15,8 +15,8 @@ public class Main {
             numbers.add(scanner.nextInt());
         }
 
-        int max = MaxFinder.findMax(numbers);
-        System.out.println("Максимальное значение: " + max);
+        int min = MaxFinder.findMin(numbers);
+        System.out.println("Максимальное значение: " + min);
 
         scanner.close();
     }
